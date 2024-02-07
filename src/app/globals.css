@@ -8,14 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -29,5 +21,12 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #26A69A, #00796B);
+    background-size: 200% 200%;
+  }
+  .element-to-rotate {
+    animation: gradientChange 4s ease infinite;
   }
 }
