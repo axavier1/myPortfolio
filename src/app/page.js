@@ -8,12 +8,11 @@ import Typewriter from 'typewriter-effect';
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-import tonyPic from "/src/assets/images/tonyPic.jpeg";
-import mobileTestL from "/src/assets/images/mobile-testing-and-group-discussion(light).png";
-import mobileTestD from "/src/assets/images/mobile-testing-and-group-discussion(dark).png"
-import analyzePicL from "/src/assets/images/light-analyze-on-screen.png";
-import laptopPicL from "/src/assets/images/working-with-laptop(light).png";
-import meme from "/src/assets/images/notFunnyMeme.png"
+import tonyPic from "/src/assets/images/Web Images/tonyPic.jpeg";
+import mobileTestL from "/src/assets/images/Web Images/mobile-testing-and-group-discussion(light).png";
+import analyzePicL from "/src/assets/images/Web Images/light-analyze-on-screen.png";
+import laptopPicL from "/src/assets/images/Web Images/working-with-laptop(light).png";
+import meme from "/src/assets/images/Web Images/notFunnyMeme.png"
 
 // const scroll = {
 //   scrollBehavior: 'smooth !important',
